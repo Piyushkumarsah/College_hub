@@ -13,6 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
+
 const pages = ['College', 'Exam', 'Courses', 'Books', 'Links', 'About'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 function ResponsiveAppBar() {
@@ -35,8 +36,9 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: '#050038',boxShadow: "rgba(5, 0, 38, 1.5) 0px 20px 25px -5px, rgba(40, 70, 50, 0.08) 0px 10px 10px -5px"
-  }}>
+    <AppBar position="sticky" sx={{
+      backgroundColor: '#000', boxShadow: "rgba(5, 0, 38, 1.5) 0px 20px 25px -5px, rgba(40, 70, 50, 0.08) 0px 10px 10px -5px"
+    }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
@@ -55,7 +57,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            College_HuB
+            College_<span className='text-[#f5a041]'>HUb</span>
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -99,7 +101,7 @@ function ResponsiveAppBar() {
           </Box>
           {/* <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
           <Typography
-            variant="h5"
+            variant="h6"
             noWrap
             component="a"
             href="#app-bar-with-responsive-menu"
@@ -114,15 +116,15 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            College_HuB
+            College_<span className='text-[#f5a041]'>HUb</span>
           </Typography>
-          <Box sx={{ flexGrow: 1,justifyContent:"flex-end", display: { xs: 'none', md: 'flex' } }}>
-            <Box sx={{display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ flexGrow: 1, justifyContent: "flex-end", display: { xs: 'none', md: 'flex' } }}>
+            <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
               {pages.map((page) => (
                 <Button
                   key={page}
                   onClick={handleCloseNavMenu}
-                  sx={{ fontSize: "11px",mx:3, my: 2, color: 'white', display: 'block','&:hover':{ transform: 'scale(1.5)'} }}
+                  sx={{ fontSize: "11px", mx: 3, my: 2, color: 'white', display: 'block', '&:hover': { transform: 'scale(1.5)' } }}
                 >
                   {page}
                 </Button>
@@ -131,11 +133,15 @@ function ResponsiveAppBar() {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
+            <div className='flex'>
+              <button className='px-4  rounded-sm bg-orange-400 mx-1 hover:scale-110'>Login</button>
+              <button className='px-4 hidden sm:block rounded-sm border border-orange-400 mx-1 hover:scale-110'>SignUp</button> 
+            </div>
+            {/* <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
               </IconButton>
-            </Tooltip>
+            </Tooltip> */}
             <Menu
               sx={{ mt: '45px' }}
               id="menu-appbar"

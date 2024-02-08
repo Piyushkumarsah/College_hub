@@ -15,7 +15,7 @@ function App() {
           <Navbar></Navbar>
           <Section1></Section1>
           <ActiveUser></ActiveUser>
-          <Section2></Section2>
+          {/* <Section2></Section2> */}
           <Footer></Footer>
         </div>
     </>
