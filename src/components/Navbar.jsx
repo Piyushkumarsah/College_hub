@@ -12,6 +12,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import {Link } from "react-router-dom";
 
 
 const pages = ['College', 'Exam', 'Courses', 'Books', 'Links', 'About'];
@@ -37,8 +38,7 @@ function ResponsiveAppBar() {
 
   return (
     <AppBar position="sticky" sx={{
-      backgroundColor: '#000', boxShadow: "rgba(5, 0, 38, 1.5) 0px 20px 25px -5px, rgba(40, 70, 50, 0.08) 0px 10px 10px -5px"
-    }}>
+      backgroundColor: '#020617'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
@@ -134,7 +134,7 @@ function ResponsiveAppBar() {
 
           <Box sx={{ flexGrow: 0 }}>
             <div className='flex'>
-              <button className='px-4  rounded-sm bg-orange-400 mx-1 hover:scale-110'>Login</button>
+              <Link to="/login"><button className='px-4  rounded-sm bg-orange-400 mx-1 hover:scale-110' >Login</button></Link>
               <button className='px-4 hidden sm:block rounded-sm border border-orange-400 mx-1 hover:scale-110'>SignUp</button> 
             </div>
             {/* <Tooltip title="Open settings">
