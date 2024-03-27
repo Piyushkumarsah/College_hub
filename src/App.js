@@ -6,10 +6,13 @@ import SocialLinks from './components/SocailLinks';
 import Section2 from './components/Section2';
 import ActiveUser from './components/ActiveUsers';
 import Footer from './components/Footer';
-import Login from './components/Login'
+import Login from './components/login'
+import Register from './components/register'
+// import Chapter from './components/chapter'
 import { Route,Routes, BrowserRouter } from 'react-router-dom'
 import { Parallax } from 'react-parallax';
 import Image from "./assets/5853.jpg"
+import Chapter from './components/chapter';
 function App() {
   return (
     <>
@@ -24,6 +27,9 @@ function App() {
               <ActiveUser></ActiveUser>
               <Section2></Section2>
               <Footer></Footer>
+              <Login></Login>
+              <Register></Register>
+              <Chapter></Chapter>
         </BrowserRouter>
       </div>
     </>

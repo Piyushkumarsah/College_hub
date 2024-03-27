@@ -5,7 +5,7 @@ import vector1 from "../assets/vector1.jpg"
 import vector2 from "../assets/vector2jpg.jpg"
 
 import theme from './our_theme'
-import Login from "../components/Login"
+// import Login from "../components/Login"
 import { Parallax } from 'react-parallax';
 export default function Section1() {
     return (
@@ -24,7 +24,7 @@ export default function Section1() {
                             </div>
                         </div>
                         <div className='antialiased h-auto w-auto'>
-                            <Login></Login>
+                            
                             {/* <img className='rounded-full transition-transform transform hover:scale-105 duration-300 ease-in-out h-[300px] w-[300px] md:h-[400px] md:w-[400px]' src={Image1} alt="" /> */}
                         </div>
                     </div>
