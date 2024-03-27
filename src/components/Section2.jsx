@@ -1,7 +1,10 @@
 import React from 'react'
+import Chapter from './chapter'
 
 export default function Section2() {
   return (
-    <div>Section2</div>
+    <div>
+      <Chapter></Chapter>
+    </div>
   )
 }
