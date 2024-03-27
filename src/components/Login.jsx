@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Login() {
     return (
-        <div style={{height: "500px", overflowY: "auto"}}>
+        <div>
             <div className="bg-transparent text-slate-400 p-8 rounded w-[300px] h-[500px]" style={{boxShadow: "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px"}}>
-                <h1 className="text-2xl font-bold mb-6 ">Log in</h1>
+                <h1 className="text-2xl font-bold mb-6 ">Log n</h1>
                 <form action="connect.php" method="post">
                     <div className="mb-4">
                         <label for="firstname" className="block text-sm font-medium text-slate-400 ">First Name</label>

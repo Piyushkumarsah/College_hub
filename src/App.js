@@ -18,12 +18,12 @@ function App() {
           <Routes>
             <Route path='/login' element={<Login></Login>}/>
           </Routes>
-              {/* <SocialLinks></SocialLinks>
+              <SocialLinks></SocialLinks>
               <Navbar></Navbar>
               <Section1></Section1>
               <ActiveUser></ActiveUser>
               <Section2></Section2>
-              <Footer></Footer> */}
+              <Footer></Footer>
         </BrowserRouter>
       </div>
     </>
