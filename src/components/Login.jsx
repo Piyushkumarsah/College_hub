@@ -1,21 +1,27 @@
-import React, { useState } from 'react'
-import toast from 'react-hot-toast'
-import { Link } from 'react-router-dom'
-const Login = () => {
+import React, { useState } from 'react';
+import toast from 'react-hot-toast';
+import { Link } from 'react-router-dom';
 
+const Login = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+    const [showPassword, setShowPassword] = useState(false);
 
     function validateEmail(email) {
         const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
         return regex.test(email);
     }
-    const LoginAttempt = ()=>{
-        if(validateEmail(email) === false) {
+
+    const handleShowPasswordToggle = () => {
+        setShowPassword(prevShowPassword => !prevShowPassword);
+    };
+
+    const LoginAttempt = () => {
+        if (validateEmail(email) === false) {
             toast.error("Enter a valid email");
         }
+    };
 
-    }
     return (
         <div className='bg-black'>
             <section className="h-screen flex flex-col md:flex-row justify-center space-y-10 md:space-y-0 md:space-x-16 items-center my-2 mx-5 md:mx-0 md:my-0">
@@ -55,12 +61,17 @@ const Login = () => {
                     <div className="my-5 flex items-center before:mt-0.5 before:flex-1 before:border-t before:border-neutral-300 after:mt-0.5 after:flex-1 after:border-t after:border-neutral-300">
                         <p className="mx-4 mb-0 text-center font-semibold text-slate-500">Or</p>
                     </div>
-                    <input className="text-sm w-full px-4 py-2 border border-solid border-gray-300 rounded bg-transparent text-white" type="text" placeholder="Email Address" onChange={(e)=>{
+                    <input className="text-sm w-full px-4 py-2 border border-solid border-gray-300 rounded bg-transparent text-white" type="text" placeholder="Email Address" onChange={(e) => {
                         setEmail(e.target.value);
-                    }}/>
-                    <input className="text-sm w-full px-4 py-2 border border-solid border-gray-300 rounded mt-4 bg-transparent text-white" type="password" placeholder="Password" onChange={(e)=>{
-                        setPassword(e.target.value);
                     }} />
+                    <div className="relative mt-4">
+                        <input className="text-sm w-full px-4 py-2 border border-solid border-gray-300 rounded bg-transparent text-white pr-10" type={showPassword ? "text" : "password"} placeholder="Password" onChange={(e) => {
+                            setPassword(e.target.value);
+                        }} />
+                        <button className="absolute top-1/2 right-2 transform -translate-y-1/2 " onClick={handleShowPasswordToggle}>
+                            {showPassword ? "Hide" : "Show"}
+                        </button>
+                    </div>
                     <div className="mt-4 flex justify-between font-semibold text-sm">
                         <label className="flex text-slate-500 hover:text-slate-600 cursor-pointer">
                             <input className="mr-1" type="checkbox" />
@@ -77,6 +88,8 @@ const Login = () => {
                     </div>
                 </div>
             </section>
+       
+
         </div>
     )
 }

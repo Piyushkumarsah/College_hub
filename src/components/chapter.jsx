@@ -59,42 +59,310 @@
       'Year 2': {
         // ... similar structure for year 2 semesters and subjects
         'Semester 1': {
-          'Control System': {
+          'Circuit Theory': {
             chapters: {
-              'Chapter 1': [
+              'Network Analysis Techniques': [
                 { name: ' Arrays', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
                 { name: ' Arrays Part-II', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
               ],
-              'Chapter 2': [
+              'Applications of Laplace Transform': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Network Functions': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Two Port Networks:': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Filters and Active Networks': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Graph Theory and Network Equations': [
                 { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
                 { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
               ],
             },
           },
-          'Electric Machines': {
+          'Electrical Measurements and Measuring Instruments ': {
             chapters: {
-              'Chapter 1': [
-                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
-                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              'Analog Measuring Instruments': [
+                { name: ' Arrays', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Arrays Part-II', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Measurement of Resistances': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'AC Bridges': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Potentiometer': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Magnetic Measurement': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Instrument Transformers': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Cathode Ray Oscilloscope': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+            },
+          },
+          
+          'Electronic Devices and Analog Integrated Circuits  ': {
+            chapters: {
+              'Semiconductors Diodes and Applications': [
+                { name: ' Arrays', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Arrays Part-II', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Bipolar Junction Transistor': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Field-Effect Transistor': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Power and Multistage Amplifiers': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Op-amps and Applications': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Specialized ICs': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+             
+            },
+          },
+          ' EMF Theory   ': {
+            chapters: {
+              'Electrostatics ': [
+                { name: ' Arrays', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Arrays Part-II', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Magneto statics': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Time varying fields and Maxwells Equations': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Plane Electromagnetic Waves ': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Transmission lines': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Waveguides': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Electromagnetic Interference and Compatibility': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+            },
+          },
+          'Digital Electronics  ': {
+            chapters: {
+              'Number Systems And Boolean Algebra': [
+                { name: ' Arrays', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Arrays Part-II', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Combinational Circuits:': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Sequential Circuits': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Digital Logic Families ': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'D/A And A/D Converters': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Semiconductor Memories': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
               ],
             },
           },
         },
         'Semester 2': {
           // ... similar structure for semester 2 subjects
-          'Control System': {
+          'Electrical Machines - I': {
             chapters: {
-              'Chapter 1': [
+              'Principle of Electromechanical Energy Conversion': [
                 { name: ' Arrays', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
                 { name: ' Arrays Part-II', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
               ],
-              'Chapter 2': [
+              'DC Generators': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'DC Motors': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Transformers': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Three Phase Induction Motors': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Speciality Motors': [
                 { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
                 { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
               ],
             },
           },
-          'Electric Machines': {
+          'Electronic Instrumentation and Measurement': {
+            chapters: {
+              'Introduction:': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Transducers': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Signal Conditioning': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Data Transmission Systems': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Display Systems': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Recorders': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+            },
+          },
+          'Generation of Electric Power': {
+            chapters: {
+              'Introduction': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Hydro Electric Power Plants': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Steam Power Plant': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Gas Turbine Power Plants': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Nuclear Power Plants': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Performance and operation of Power Plants': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+            },
+          },
+          'Data structures and Algorithms ': {
+            chapters: {
+              'Introduction': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Arrays': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Stacks': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Recursion': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Queues': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Linked list': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Searching and Hashing:': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Sorting': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Graphs': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              
+            },
+          },
+          'Numerical Methods  ': {
+            chapters: {
+              'Chapter 1': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Chapter 2': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Chapter 3': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Chapter 4': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Chapter 5': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              
+            },
+          },
+          'Economics for Engineers   ': {
             chapters: {
               'Chapter 1': [
                 { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
@@ -103,47 +371,247 @@
             },
           },
         },
+        
 
       },
 
       'Year 3': {
         'Semester 1': {
-          'Control System': {
+          'Microprocessors and Interfacing ': {
             chapters: {
-              'Chapter 1': [
+              'Introduction to 8-Bit Microprocessor': [
                 { name: ' Arrays', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
                 { name: ' Arrays Part-II', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
               ],
-              'Chapter 2': [
+              'Microprocessor Instruction Set (INTEL 8085)': [
                 { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
                 { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
               ],
+              'Assembly Language Programming ': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Peripherals and Interfacing for 8085 Microprocessors': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Introduction to 8086 Microprocessors': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Pentium Microprocessors': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ], 
             },
           },
-          'Electric Machines': {
+          'Control System Engineering ': {
             chapters: {
-              'Chapter 1': [
+              'Introductory Concepts': [
+                { name: ' Arrays', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Arrays Part-II', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Modelling': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Time Domain Analysis': [
+                { name: ' Arrays', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Arrays Part-II', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Root Locus Technique': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Frequency Domain Analysis': [
+                { name: ' Arrays', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Arrays Part-II', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Compensation': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Control Components': [
+                { name: ' Arrays', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Arrays Part-II', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              
+            },
+          },
+          'Power Electronics': {
+            chapters: {
+              'Power Semi-Conductor Devices': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Phase-Controlled Converters': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'DC to DC Converte': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Inverters': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'AC to AC Converters': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],  
+            },
+          },
+          'Electrical Machines-II': {
+            chapters: {
+              'Polyphase Synchronous Machines ': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Synchronous Generator': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Multi Machine Operation': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Testing of Synchronous Machines': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              
+            },
+          },
+          'Transmission and Distribution of Electric Power': {
+            chapters: {
+              'Introduction': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Distribution System': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Over Head Transmission Lines': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Performance of Transmission Lines:': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Mechanical Design of Overhead Lines': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Insulators of Overhead Lines ': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Underground Cables': [
                 { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
                 { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
               ],
             },
           },
+          
         },
         'Semester 2': {
           // ... similar structure for semester 2 subjects
-          'Control System': {
+          'Power System Analysis': {
             chapters: {
-              'Chapter 1': [
+              'Introduction': [
                 { name: ' Arrays', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
                 { name: ' Arrays Part-II', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
               ],
-              'Chapter 2': [
+              'Power flow analysis': [
                 { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-idh', pdf: 'link-to-pdf' },
+              ],
+              'Fault analysis of balanced faults': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-idf', pdf: 'link-to-pdf' },
+              ],
+              'Fault analysis of unbalanced faults': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-idd', pdf: 'link-to-pdf' },
+                { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Stability analysis': [
+                { name: ' Linked Lists', video: 'https://www.youtube.com/embed/your-video-iddf', pdf: 'link-to-pdf' },
                 { name: ' Stacks and Queues', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
               ],
             },
           },
-          'Electric Machines': {
+          'Digital Signal Processing ': {
+            chapters: {
+              'Introduction': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Discrete Time System Analysis': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Discrete Fourier Transform & Computation': [
+                { name: 'Operating Principles', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Applications', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Design of Digital Filters': [
+                { name: 'Operating Principles', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Applications', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Digital Signal Processors': [
+                { name: 'Operating Principles', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Applications', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+            },
+          },
+          'PLC, DCS, SCADA': {
+            chapters: {
+              'Computer Based Control:': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Distributed Control System': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Introduction Programmable Logic Controller (PLC)': [
+                { name: 'Operating Principles', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Applications', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Basic PLC functions': [
+                { name: 'Operating Principles', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Applications', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Intermediate PLC functions': [
+                { name: 'Operating Principles', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Applications', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Data Handling Functions of PLC': [
+                { name: 'Operating Principles', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Applications', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Bit Functions of PLC': [
+                { name: 'Operating Principles', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Applications', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Advanced Functions of PLC': [
+                { name: 'Operating Principles', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Applications', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'PLC programming': [
+                { name: 'Operating Principles', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Applications', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'SCADA': [
+                { name: 'Operating Principles', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Applications', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+            },
+          },
+          'Power System Derregulation  ': {
             chapters: {
               'Chapter 1': [
                 { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
@@ -159,6 +627,39 @@
               ],
             },
           },
+          'High Voltage Enginering  ': {
+            chapters: {
+              'Chapter 1': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Chapter 2': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Chapter 3': [
+                { name: 'Operating Principles', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Applications', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+            },
+          },
+          'Soft Computing': {
+            chapters: {
+              'Chapter 1': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Chapter 2': [
+                { name: 'Introduction to Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Types of Electric Machines', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+              'Chapter 3': [
+                { name: 'Operating Principles', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+                { name: 'Applications', video: 'https://www.youtube.com/embed/your-video-id', pdf: 'link-to-pdf' },
+              ],
+            },
+          },
+          
         },
       },
       'Year 4': {
@@ -251,23 +752,23 @@
             value={selectedYear}
             onChange={handleYearChange}
           >
-            <option value="" className="">Select Year</option>
+            <option value="" className=" text-white   bg-black ">Select Year</option>
             {/* Add options for all years in your data */}
-            <option value="Year 1">Year 1</option>
-            <option value="Year 2">Year 2</option>
-            <option value="Year 3">Year 3</option>
-            <option value="Year 4">Year 4</option>
+            <option value="Year 1" className="bg-black">Year 1</option>
+            <option value="Year 2" className="bg-black">Year 2</option>
+            <option value="Year 3" className="bg-black">Year 3</option>
+            <option value="Year 4" className="bg-black">Year 4</option>
             {/* ... options for other years */}
           </select>
           <select
-            className="px-4 py-2 rounded border border-gray-500 focus:outline-none focus:ring focus:ring-orange-300 mx-2 bg-transparent text-white" 
+            className="px-4 py-2 rounded border border-gray-500 focus:outline-none focus:ring focus:ring-orange-300 mx-2 bg-black text-white" 
             value={selectedSemester}
             onChange={handleSemesterChange}
             >
               <option value="">Select Semester</option>
               {/* Add options for all semesters in your data */}
-              <option value="Semester 1">Semester 1</option>
-              <option value="Semester 2">Semester 2</option>
+              <option value="Semester 1" className="bg-black">Semester 1</option>
+              <option value="Semester 2" className="bg-black">Semester 2</option>
               {/* ... options for other semesters */}
             </select>
           </div>
@@ -322,9 +823,9 @@
                 <tbody>
                   {Object.keys(topics[selectedYear][selectedSemester][selectedSubject].chapters).map((chapter) => (
                     <React.Fragment key={chapter}>
-                      <tr className=" bg-black text-orange-400  ">
+                      <tr className=" bg-black text-orange-400  shadow-sm shadow-orange-400 ">
                         <td
-                          className={`py-2 px-4 cursor-pointer bg-black text-orange-300 hover:bg-orange-600 hover:text-white ${
+                          className={`py-2 px-4 cursor-pointer bg-black text-orange-400 hover:bg-orange-600 hover:text-white font-semibold  shadow-md shadow-orange-800  ${
                             selectedChapter === chapter ? 'bg-black' : ''
                           }`}
                           onClick={() => handleChapterClick(chapter)}
@@ -337,25 +838,25 @@
                       {selectedChapter === chapter &&
                         topics[selectedYear][selectedSemester][selectedSubject].chapters[chapter].map((topic) => (
                           <tr className="" key={topic.name}>
-                            <td className="py-5 px-4 bg-black text-white shadow-sm shadow-orange-300">
+                            <td className="py-5 pl-10 px-4 bg-black text-white shadow-sm shadow-orange-800">
                               {topic.name}
                             </td>
-                            <td className="px-0 sm:px-4 bg-black text-white shadow-sm shadow-orange-300  sm:py-0 ">
+                            <td className="px-0 sm:px-4 bg-black text-white shadow-sm shadow-white  sm:py-0 ">
                               <a
                                 href={topic.video}
                                 target="_blank"
                                 rel="noreferrer"
-                                className="text-blue-500 hover:underline py-2 px-20 sm:text-md text-sm sm:py-2 sm:px-4 pt-  border rounded-2xl  sm:shadow-orange-400  data-[https://www.youtube.com/live/20UDoO29iaM?feature=shared]:"
+                                className="shadow-red-800 shadow-sm text-blue-500 hover:underline py-2 px-20 sm:text-md text-sm sm:py-2 sm:px-4 pt-  border rounded-2xl    data-[https://www.youtube.com/live/20UDoO29iaM?feature=shared]:"
                               >
                                 Watch Video
                               </a>
                             </td>
-                            <td className="py-2 px-4  bg-black text-white shadow-sm shadow-orange-400 ">
+                            <td className="py-2 px-4  bg-black text-white shadow-md shadow-white ">
                               <a
                                 href={topic.pdf}
                                 target="_blank"
                                 rel="noreferrer"
-                                className="text-blue-500 hover:underline "
+                                className="text-blue-500 hover:underline  "
                               >
                                 Read PDF
                               </a>
