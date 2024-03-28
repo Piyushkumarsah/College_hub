@@ -1,7 +1,8 @@
 import './App.css';
 import Home from './components/Home'
-import Login from './components/login'
-import Register from './components/register'
+import Login from './components/Login'
+import Register from './components/Register'
+import { Toaster } from 'react-hot-toast';
 // import Chapter from './components/chapter'
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
 import { Parallax } from 'react-parallax';
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <div className='h-screen'>
+        <Toaster></Toaster>
         <BrowserRouter>
           <Routes>
             <Route path='/login' element={<Login></Login>} />
@@ -18,7 +20,7 @@ function App() {
             <Route path='/' element={<Home></Home>} />
 
           </Routes>
-          
+
         </BrowserRouter>
       </div>
     </>
