@@ -134,8 +134,17 @@ function ResponsiveAppBar() {
 
           <Box sx={{ flexGrow: 0 }}>
             <div className='flex'>
-              <Link to="/login"><button className='px-4  rounded-sm bg-orange-400 mx-1 hover:scale-110' >Login</button></Link>
-              <button className='px-4 hidden sm:block rounded-sm border border-orange-400 mx-1 hover:scale-110'>SignUp</button> 
+              {
+                sessionStorage.getItem('userSession') === null ?
+                <div className='flex'>
+
+                <Link to="/login"><button className='px-4  rounded-sm bg-orange-400 mx-1 hover:scale-110' >Login</button></Link>
+                <button className='px-4 hidden sm:block rounded-sm border border-orange-400 mx-1 hover:scale-110'>SignUp</button> 
+                </div>
+                :
+                <Link to="/profile"><span className='px-4  rounded-sm text-orange-500 mx-1 hover:scale-110' >Profile</span></Link>
+
+              }
             </div>
             {/* <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>

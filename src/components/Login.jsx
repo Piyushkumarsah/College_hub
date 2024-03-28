@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
-import toast from 'react-hot-toast';
-import { Link } from 'react-router-dom';
-
+import React, { useState } from 'react'
+import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
+import toast from 'react-hot-toast'
+import { Link } from 'react-router-dom'
 const Login = () => {
+    const navigate = useNavigate();
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [showPassword, setShowPassword] = useState(false);
@@ -11,16 +13,27 @@ const Login = () => {
         const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
         return regex.test(email);
     }
-
-    const handleShowPasswordToggle = () => {
-        setShowPassword(prevShowPassword => !prevShowPassword);
-    };
-
+    const enter = (event) => {
+        console.log(event);
+    }
     const LoginAttempt = () => {
+        console.log("atempt")
         if (validateEmail(email) === false) {
             toast.error("Enter a valid email");
         }
-    };
+        axios.post('http://localhost:5000/login', { email, password })
+            .then(response => {
+                console.log(response)
+                toast.success(response.data.message);
+                localStorage.setItem("userDetails", JSON.stringify(response.data.userDetails))
+                sessionStorage.setItem('userSession', email);
+                navigate('/');
+            })
+            .catch(err => {
+                toast.error(err.response.data.message);
+                console.log("error is ", err)
+            })
+        }
 
     return (
         <div className='bg-black'>
@@ -61,17 +74,12 @@ const Login = () => {
                     <div className="my-5 flex items-center before:mt-0.5 before:flex-1 before:border-t before:border-neutral-300 after:mt-0.5 after:flex-1 after:border-t after:border-neutral-300">
                         <p className="mx-4 mb-0 text-center font-semibold text-slate-500">Or</p>
                     </div>
-                    <input className="text-sm w-full px-4 py-2 border border-solid border-gray-300 rounded bg-transparent text-white" type="text" placeholder="Email Address" onChange={(e) => {
+                    <input className="text-sm w-full px-4 py-2 border border-solid border-gray-300 rounded bg-transparent text-white" type="text" placeholder="Email Address" onKeyUp={(e) => e.code === 'Enter' ? LoginAttempt() : null} onChange={(e) => {
                         setEmail(e.target.value);
                     }} />
-                    <div className="relative mt-4">
-                        <input className="text-sm w-full px-4 py-2 border border-solid border-gray-300 rounded bg-transparent text-white pr-10" type={showPassword ? "text" : "password"} placeholder="Password" onChange={(e) => {
-                            setPassword(e.target.value);
-                        }} />
-                        <button className="absolute top-1/2 right-2 transform -translate-y-1/2 " onClick={handleShowPasswordToggle}>
-                            {showPassword ? "Hide" : "Show"}
-                        </button>
-                    </div>
+                    <input className="text-sm w-full px-4 py-2 border border-solid border-gray-300 rounded mt-4 bg-transparent text-white" type="password" placeholder="Password" onKeyUp={(e) => e.code === 'Enter' ? LoginAttempt() : null} onChange={(e) => {
+                        setPassword(e.target.value);
+                    }} />
                     <div className="mt-4 flex justify-between font-semibold text-sm">
                         <label className="flex text-slate-500 hover:text-slate-600 cursor-pointer">
                             <input className="mr-1" type="checkbox" />
