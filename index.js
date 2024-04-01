@@ -37,7 +37,20 @@ app.post('/login', async (req,res)=>{
         return res.status(404).json({message:"Something went wrong"});
     }
 })
-
+app.post("/register", async (req,res) =>{
+    const details = req.body;
+    console.log(details)
+    const email = details.email;
+    const existingUser = await Users.findOne({email});
+    if(existingUser)
+    {
+        console.log("user exists")
+        return res.status(400).json({message:"User already exists !"});
+    }
+    const user = new Users(details);
+    user.save();
+    return res.status(200).json({message:"Successfully registered"});
+})
 app.listen(process.env.PORT || PORT, ()=>{
     console.log("Server is running at port",PORT);
 });

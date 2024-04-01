@@ -12,8 +12,8 @@ export default function Section1() {
         <>
             <Parallax strength={-600} bgImage={vector2}>
                 <div className='flex justify-center items-center h-screen m-0'>
-                    <div className='flex  flex-col sm:flex-col lg:flex-row md:flex-col  w-full justify-evenly items-center sm:items-center md:items-center mt-12'>
-                        <div className='flex flex-col items-center justify-evenly'>
+                    <div className='flex  flex-col sm:flex-col lg:flex-row md:flex-col  w-full justify-center items-center sm:items-center md:items-center mt-12'>
+                        <div className='flex flex-col items-center'>
                             <div className='flex  items-center flex-col p-3'>
                                 <h2 className='text-white md:text-8xl  mb-3 animate-bounce italic text-6xl'style={{fontFamily:"Rubik"}}>Empower!</h2>
                                 <h2 className='text-slate-400 text-center text-2xl md:text-3xl m-auto'>"Your Academic Journey: Unlock a World of College Resources!"</h2>

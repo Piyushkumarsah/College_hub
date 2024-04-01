@@ -12,13 +12,13 @@ const userSchema =new mongoose.Schema({
         type:String,
         required: true
     },
-    confirmPassword:{
-        type:String,
-        required: true
-    },
     phone:{
         type:Number,
         required:true
+    },
+    gender:{
+        type: String,
+        required: true
     }
 })
 const Users = mongoose.model('users',userSchema);

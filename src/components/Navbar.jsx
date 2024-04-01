@@ -13,13 +13,15 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import {Link } from "react-router-dom";
-
+import {useNavigate } from 'react-router-dom';
 
 const pages = ['College', 'Exam', 'Courses', 'Books', 'Links', 'About'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 function ResponsiveAppBar() {
+  
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
+  const navigate = useNavigate();
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -137,12 +139,18 @@ function ResponsiveAppBar() {
               {
                 sessionStorage.getItem('userSession') === null ?
                 <div className='flex'>
-
                 <Link to="/login"><button className='px-4  rounded-sm bg-orange-400 mx-1 hover:scale-110' >Login</button></Link>
-                <button className='px-4 hidden sm:block rounded-sm border border-orange-400 mx-1 hover:scale-110'>SignUp</button> 
+                <Link to="/register" className='px-4 hidden sm:block rounded-sm border border-orange-400 mx-1 hover:scale-110'>SignUp</Link> 
                 </div>
                 :
-                <Link to="/profile"><span className='px-4  rounded-sm text-orange-500 mx-1 hover:scale-110' >Profile</span></Link>
+                <div className='flex'>
+                  <Link to="/profile"><span className='px-4  rounded-sm text-orange-500 mx-1 hover:scale-110' >Profile</span></Link>
+                  <Link to="/"><button className='px-4  rounded-sm text-orange-500 mx-1 hover:scale-110' onClick={(e)=>{
+                    sessionStorage.clear();
+                    localStorage.clear();
+                    navigate('/');
+                  }} >LogOut</button></Link>
+                </div>
 
               }
             </div>
